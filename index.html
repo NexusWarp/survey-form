@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="box">
+        <div class="boxes title-box"> 
+            <h1 id="title">General Survey</h1>
+            <P id="description">Fill the form to complete the survey</P>
+        </div>
+        
+        <div class="form boxes">
+            <form action="" id="survey-form">
+                <label for="name" id="name-label">Name: <input type="text" name="name" id="name" placeholder="Enter your name"></label>
+                <label for="email" id="email-label"> Email: <input type="email" name="email" id="email" placeholder="Enter your email"></label>
+                <label for="age" id="number-label">Age: <input type="number" name="age" min="12" max="120" id="number" placeholder="Enter your age"></label>
+            <label for=""> Which option best describes your current role? 
+                <select name="" id="dropdown">
+                    <option value="0">Select current role</option>
+                    <option value="1">Student</option>
+                    <option value="2">Employed</option>
+                    <option value="3">Businessman</option>
+                </select></label>
+<hr class="fhr">
+                <label for="" class="label"> Would you recomment our products to others? </label>
+                <label for="option1" class="options"><input type="radio" name="options" id="option1" checked> Definitely </label>
+                <label for="option2" class="options"><input type="radio" name="options" id="option2"> Maybe </label>
+                <label for="option3" class="options"><input type="radio" name="options" id="option3"> Not sure </label>
+                <hr class="fhr">
+                <label for="" class="label"> What you like the most about us?</label>
+                <label for="products"><input type="checkbox" name="" value="products" id="products"> Products</label>
+                <label for="Prices"><input type="checkbox" name="" value="Prices" id="Prices"> Prices</label>
+                <label for="quality"><input type="checkbox" name="" value="quality" id="quality"> Quality of products</label>
+                <label for="polices"><input type="checkbox" name="" value="polices" id="polices"> Polices and terms</label>
+                <label for="Support"><input type="checkbox" name="" value="Support" id="Support"> Support</label>
+                <label for="overal"><input type="checkbox" name="" value="overal" id="overal"> Overal service</label>
+            </form >
+
+    </div>
+    <div class="btn"><button id="submit">Submit</button></div>
+    </div>
+</body>
+</html>
